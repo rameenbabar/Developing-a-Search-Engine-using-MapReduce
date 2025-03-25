@@ -1,6 +1,6 @@
 # Developing a Search Engine using MapReduce Technology
 
-## Introduction:
+## Overview:
 This project implements a basic search engine using the **MapReduce paradigm** on a subset of the English Wikipedia dataset. It demonstrates core concepts in **Information Retrieval**, including **TF-IDF**, **Vector Space Models**, and distributed computing using **Apache Hadoop**.
 
 The problem of managing enormous volumes of data while preserving quick responses was first addressed by search engines. In less than a millisecond, a search engine provides a list of the most relevant information after quickly processing hundreds to thousands of queries every second. However, in the field of information retrieval, the difficulty of finding relevant information is a crucial problem which basically involves **indexing of documents** and **processing queries**. Hadoop's MapReduce technology provides a practical approach for indexing large text corpora that are larger than what can fit on a single machine.
