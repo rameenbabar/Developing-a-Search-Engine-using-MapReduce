@@ -57,7 +57,7 @@ All intermediate data (TF, IDF, TF-IDF weights) are stored in the `output/` fold
 - Dot product between query vector and document vectors is calculated.
 - Documents are ranked based on relevance score.
 
-Output:
+### Output:
 - `vocab.txt`:	Vocabulary list with each unique word and its assigned index.
 - `tf.txt`:	**Term Frequencies (TF)**: Count of each term in every section/document.
 - `idf.txt`:	**Inverse Document Frequencies (IDF)**: Number of documents each term appears in.
